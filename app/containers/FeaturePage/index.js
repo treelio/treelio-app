@@ -7,6 +7,8 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { FormattedMessage } from 'react-intl';
 
+import TreelioList from 'components/TreelioList';
+import TreelioListItem from 'components/TreelioListItem';
 import H1 from 'components/H1';
 import messages from './messages';
 import List from './List';
@@ -28,6 +30,7 @@ export default class FeaturePage extends React.Component { // eslint-disable-lin
           <title>Feature Page</title>
           <meta name="description" content="Feature page of React.js Boilerplate application" />
         </Helmet>
+        <TreelioList><TreelioListItem /></TreelioList>
         <H1>
           <FormattedMessage {...messages.header} />
         </H1>
