@@ -30,7 +30,30 @@ export default class FeaturePage extends React.Component { // eslint-disable-lin
           <title>Feature Page</title>
           <meta name="description" content="Feature page of React.js Boilerplate application" />
         </Helmet>
-        <TreelioList><TreelioListItem /></TreelioList>
+        <TreelioList>
+          <TreelioListItem>
+            <div>
+              <name>Item Name</name>
+              <vendor>Vendor Name</vendor>
+            </div>
+            <div>
+              <price>Price</price>
+              <quantity>Quantity</quantity>
+            </div>
+          </TreelioListItem>
+          <TreelioListItem>
+            I am a test item
+          </TreelioListItem>
+          <TreelioListItem>
+            I am a test item
+          </TreelioListItem>
+          <TreelioListItem>
+            I am a test item
+          </TreelioListItem>
+          <TreelioListItem>
+            I am a test item
+          </TreelioListItem>
+        </TreelioList>
         <H1>
           <FormattedMessage {...messages.header} />
         </H1>

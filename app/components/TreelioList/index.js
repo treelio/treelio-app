@@ -5,12 +5,8 @@
 import styled from 'styled-components';
 
 const TreelioList = styled.ul`
-  background-color: #f00;
-
-
-  &:hover {
-    color: #6cc0e5;
-  }
+  margin: 0;
+  padding: 0;
 `;
 
 export default TreelioList;
