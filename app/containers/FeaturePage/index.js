@@ -32,26 +32,59 @@ export default class FeaturePage extends React.Component { // eslint-disable-lin
         </Helmet>
         <TreelioList>
           <TreelioListItem>
-            <div>
-              <name>Item Name</name>
-              <vendor>Vendor Name</vendor>
-            </div>
-            <div>
-              <price>Price</price>
-              <quantity>Quantity</quantity>
-            </div>
+            <div></div>
+            <ul>
+              <li>Item Name</li>
+              <li>Vendor Name</li>
+            </ul>
+            <ul>
+              <li>Price</li>
+              <li>Quantity</li>
+            </ul>
           </TreelioListItem>
           <TreelioListItem>
-            I am a test item
+            <div></div>
+            <ul>
+              <li>Item Name</li>
+              <li>Vendor Name</li>
+            </ul>
+            <ul>
+              <li>Price</li>
+              <li>Quantity</li>
+            </ul>
           </TreelioListItem>
           <TreelioListItem>
-            I am a test item
+            <div></div>
+            <ul>
+              <li>Item Name</li>
+              <li>Vendor Name</li>
+            </ul>
+            <ul>
+              <li>Price</li>
+              <li>Quantity</li>
+            </ul>
           </TreelioListItem>
           <TreelioListItem>
-            I am a test item
+            <div></div>
+            <ul>
+              <li>Item Name</li>
+              <li>Vendor Name</li>
+            </ul>
+            <ul>
+              <li>Price</li>
+              <li>Quantity</li>
+            </ul>
           </TreelioListItem>
           <TreelioListItem>
-            I am a test item
+            <div></div>
+            <ul>
+              <li>Item Name</li>
+              <li>Vendor Name</li>
+            </ul>
+            <ul>
+              <li>Price</li>
+              <li>Quantity</li>
+            </ul>
           </TreelioListItem>
         </TreelioList>
         <H1>

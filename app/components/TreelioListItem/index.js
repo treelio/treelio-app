@@ -5,20 +5,40 @@
 import styled from 'styled-components';
 
 const TreelioListItem = styled.li`
-  display: grid;
+  display: flex;
   background-color: #fff;
   color: #4B4B4B;
   color: #777;
   list-style: none;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 20px;
+  align-items: center;
 
-  & name {
-  font-weight: bold;
+  & div {
+    width: 50px;
+    height: 50px;
+    background-color: black;
   }
-  & vendor {
-  color: #666;
+
+  & ul {
+    flex-grow: 1;
+
+    list-style: none;
+    margin:0;
+    padding:0 0 0 20px;
+    height:50px;
+  }
+  & ul:last-child {
+    text-align:right;
+  }
+  & li {
+    margin:0;
+    line-height: 20px;
+    padding: 0;
+  }
+  & li:first-child {
+    font-weight: bold;
   }
 
 `;
